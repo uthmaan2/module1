@@ -1,0 +1,60 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+table{
+	border-collapse: collapse;
+	padding: 10px;
+}
+
+td{
+	border: 1px solid black;
+}
+tr:nth-child(even){
+	background-color: orange;
+}
+tr:nth-child(odd){
+	background-color: blue;
+}
+h1,p{
+	color:blue;
+}
+#p1{
+	color: blue;
+}
+.p1{
+	color:red;
+}
+#para{
+	font-weight: bold;
+}
+#block{
+	border: 1px solid black;
+}
+strong{
+	border: 1px solid red;
+}
+.span-trois{
+	color: green;
+}
+.font{
+	font-family: "Century Gothic", Verdana, sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+}
+.propriete{
+	text-align: center;
+	text-transform: lowercase;
+	text-decoration: underline;
+	text-shadow: 3px 3px 4px blue;
+}
+.align{
+	text-align: right;
+	text-transform: uppercase;
+}
+.div1{
+	background-color: #088;
+	width:500px;
+	padding: 20px;
+	border: 20px solid  #0C0;
+	margin:50px;
+}
